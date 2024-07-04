@@ -37,3 +37,29 @@ conda activate dummyname
 pip install -r requirements.txt
 ```
 
+
+
+## MLflow
+
+- [Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+##### cmd
+- mlflow ui
+
+
+### Dagshub
+[Dagshub](https://dagshub.com/)
+
+1. Connect your repo from github to dagshub
+2. In Dagshub Repo, remote -> Experiments
+3. Copy Mlflow URI ["https://dagshub.com/username/repo"]
+4. Copy the following from mlflow tracking, Which goes similar to this.
+
+    ```bash
+    import dagshub
+    dagshub.init(repo_owner=" ",repo_name=" ",mlflow=True)
+    ```
+5. Add it to the main.py 
+
+[`Note`: Dagshub will ask for authentication, it is recommened to clone repo and try it.]
