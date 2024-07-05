@@ -48,8 +48,8 @@ pip install -r requirements.txt
 - mlflow ui
 
 
-### Dagshub
-[Dagshub](https://dagshub.com/)
+### DagsHub
+[Official-Page](https://dagshub.com/)
 
 1. Connect your repo from github to dagshub
 2. In Dagshub Repo, remote -> Experiments
@@ -63,3 +63,14 @@ pip install -r requirements.txt
 5. Add it to the main.py 
 
 [`Note`: Dagshub will ask for authentication, it is recommened to clone repo and try it.]
+
+### DVC commands [For Data Pipeline]
+
+- [DVC Documentation Page](https://dvc.org/doc/command-reference)
+
+1. dvc init
+2. dvc repro
+3. dvc dag
+
+
+
