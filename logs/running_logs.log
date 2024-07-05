@@ -264,3 +264,56 @@ x==========x]
 [2024-07-04 21:17:07,079: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-07-05 16:06:52,822: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage started <<<<<<]
+[2024-07-05 16:06:52,822: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-05 16:06:52,822: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-05 16:06:52,822: INFO: common: Created directory at: artifacts]
+[2024-07-05 16:06:52,822: INFO: common: Created directory at: artifacts/data_ingestion]
+[2024-07-05 16:06:52,822: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1tMVSoSJua1xGXkMoqjEFBrICjt32zSKS/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-05 16:08:54,727: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1tMVSoSJua1xGXkMoqjEFBrICjt32zSKS/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-07-05 16:09:00,731: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2024-07-05 16:10:51,402: INFO: stage_02_prepare_base_model: *******************]
+[2024-07-05 16:10:51,403: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-07-05 16:10:51,404: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-05 16:10:51,405: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-05 16:10:51,405: INFO: common: Created directory at: artifacts]
+[2024-07-05 16:10:51,406: INFO: common: Created directory at: artifacts/prepare_base_model]
+[2024-07-05 16:10:51,891: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-07-05 16:10:52,093: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-07-05 16:10:57,287: INFO: stage_03_model_training: *******************]
+[2024-07-05 16:10:57,287: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-07-05 16:10:57,288: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-05 16:10:57,289: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-05 16:10:57,290: INFO: common: Created directory at: artifacts]
+[2024-07-05 16:10:57,291: INFO: common: Created directory at: artifacts\training]
+[2024-07-05 16:30:23,026: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-07-05 17:02:39,442: INFO: stage_04_model_evaluation_mlflow: *******************]
+[2024-07-05 17:02:39,442: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-05 17:02:39,442: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-05 17:02:39,442: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-05 17:02:39,442: INFO: common: Created directory at: artifacts]
+[2024-07-05 17:06:16,239: INFO: common: json file saved at: {path}]
+[2024-07-05 17:06:17,192: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-07-05 17:06:17,723: INFO: builder_impl: Assets written to: C:\Users\satis\AppData\Local\Temp\tmp5zw5phpn\model\data\model\assets]
+[2024-07-05 17:06:29,220: INFO: dir_util: creating C:\Users\satis\Kidney-Disease-Classification-DP-Project\mlruns\0\a326370cb1094d4092de3a98ebb7e79b\artifacts\model\data]
+[2024-07-05 17:06:29,235: INFO: dir_util: creating C:\Users\satis\Kidney-Disease-Classification-DP-Project\mlruns\0\a326370cb1094d4092de3a98ebb7e79b\artifacts\model\data\model]
+[2024-07-05 17:06:29,238: INFO: dir_util: creating C:\Users\satis\Kidney-Disease-Classification-DP-Project\mlruns\0\a326370cb1094d4092de3a98ebb7e79b\artifacts\model\data\model\assets]
+[2024-07-05 17:06:29,269: INFO: dir_util: creating C:\Users\satis\Kidney-Disease-Classification-DP-Project\mlruns\0\a326370cb1094d4092de3a98ebb7e79b\artifacts\model\data\model\variables]
+[2024-07-05 17:06:29,825: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-07-05 17:11:17,549: INFO: stage_04_model_evaluation_mlflow: *******************]
+[2024-07-05 17:11:17,553: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-07-05 17:11:17,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-07-05 17:11:17,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-07-05 17:11:17,554: INFO: common: Created directory at: artifacts]
+[2024-07-05 17:14:40,072: INFO: common: json file saved at: {path}]
+[2024-07-05 17:14:40,072: INFO: stage_04_model_evaluation_mlflow: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
