@@ -11,7 +11,11 @@ class PredictionPipeline:
 
     def predict(self):
         # load model
-        model = load_model(os.path.join("artifacts", "training", "model.h5"))
+        # model = load_model(os.path.join("artifacts", "training", "model.h5")) 
+        # Above code is used if app was loaded with artifacts folder. However, artifacts folder is not committing to git. 
+        # So the model is added to model folder. So the load model is changed.
+
+        model = load_model(os.path.join("model", "model.h5"))
 
         imagename = self.filename
         test_image = image.load_img(imagename, target_size = (224,224))
