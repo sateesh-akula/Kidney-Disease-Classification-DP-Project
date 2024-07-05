@@ -72,5 +72,8 @@ pip install -r requirements.txt
 2. dvc repro
 3. dvc dag
 
+  [`Optional commands for exploring`]
+   - `dvc dag --outs`:  The pipeline can also be seen from the point of view of how stage outputs/dependencies are connected
+
 
 
