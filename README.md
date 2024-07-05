@@ -62,7 +62,7 @@ pip install -r requirements.txt
     ```
 5. Add it to the main.py 
 
-[`Note`: Dagshub will ask for authentication, it is recommened to clone repo and try it.]
+    [`Note`: Dagshub will ask for authentication, it is recommened to clone repo and try it.]
 
 ### DVC commands [For Data Pipeline]
 
